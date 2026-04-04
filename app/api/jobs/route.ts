@@ -43,7 +43,7 @@ export async function GET(req: NextRequest) {
     if (ageMin > 0) query.ageMax = { $gte: ageMin };
     if (ageMax > 0) query.ageMin = { $lte: ageMax };
 
-    const sortObj =
+    const sortObj as any =
       sort === "trending" ? { views: -1, createdAt: -1 }
       : /* newest & featured */ { featured: -1, createdAt: -1 };
 
