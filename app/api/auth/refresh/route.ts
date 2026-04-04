@@ -56,6 +56,7 @@ export async function POST(req: NextRequest) {
     expiresAt: new Date(Date.now() + REFRESH_TTL_MS),
     userAgent: req.headers.get("user-agent") ?? undefined,
     ip:        req.headers.get("x-forwarded-for")?.split(",")[0].trim() ?? "unknown",
+    createdAt: new Date(),
   });
 
   await User.updateOne({ _id: user._id }, { $set: { refreshTokens: updated } });
