@@ -1,5 +1,5 @@
 const nextConfig = {
-  serverExternalPackages: ["mongoose", "bcryptjs"],
+  
 
   images: {
     remotePatterns: [
