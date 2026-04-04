@@ -1,0 +1,168 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "jobs": "Vakansiyalar",
+    "postJob": "Vakansiya joylash",
+    "pricing": "Narxlar",
+    "login": "Kirish",
+    "logout": "Chiqish"
+  },
+  "hero": {
+    "title": "O'zbekistondagi eng yaxshi ish o'rinlari",
+    "subtitle": "Minglab vakansiyalar orasidan o'zingizga mos ishni toping yoki professional xodimlarni yollang.",
+    "searchPlaceholder": "Lavozim, kompaniya yoki kalit so'z...",
+    "locationPlaceholder": "Shahar yoki viloyat",
+    "searchBtn": "Qidirish",
+    "stats": {
+      "jobs": "Faol vakansiya",
+      "companies": "Kompaniya",
+      "candidates": "Nomzod"
+    }
+  },
+  "filters": {
+    "title": "Filtrlar",
+    "jobType": "Ish turi",
+    "category": "Kategoriya",
+    "salary": "Maosh",
+    "experience": "Tajriba",
+    "allTypes": "Barcha turlar",
+    "allCategories": "Barcha kategoriyalar",
+    "types": {
+      "full-time": "To'liq stavka",
+      "part-time": "Yarim stavka",
+      "remote": "Masofaviy",
+      "contract": "Shartnomaviy",
+      "internship": "Amaliyot"
+    },
+    "categories": {
+      "it": "IT va Texnologiya",
+      "finance": "Moliya",
+      "marketing": "Marketing",
+      "design": "Dizayn",
+      "sales": "Savdo",
+      "hr": "HR va Boshqaruv",
+      "education": "Ta'lim",
+      "healthcare": "Sog'liqni saqlash"
+    },
+    "experience": {
+      "any": "Istalgan",
+      "junior": "Junior (0-2 yil)",
+      "mid": "Mid (2-4 yil)",
+      "senior": "Senior (4+ yil)"
+    },
+    "apply": "Filtrlarni qo'llash",
+    "reset": "Tozalash"
+  },
+  "jobCard": {
+    "apply": "Murojaat qilish",
+    "viewDetails": "Batafsil",
+    "posted": "Joylashtirildi",
+    "deadline": "Muddat",
+    "salary": "Maosh",
+    "type": "Ish turi",
+    "location": "Manzil",
+    "daysAgo": "kun oldin",
+    "today": "Bugun",
+    "yesterday": "Kecha",
+    "negotiable": "Kelishiladi"
+  },
+  "jobDetail": {
+    "applyNow": "Hozir murojaat qilish",
+    "saveJob": "Saqlash",
+    "share": "Ulashish",
+    "description": "Vakansiya haqida",
+    "requirements": "Talablar",
+    "benefits": "Imtiyozlar",
+    "aboutCompany": "Kompaniya haqida",
+    "similarJobs": "O'xshash vakansiyalar",
+    "report": "Shikoyat qilish"
+  },
+  "postJob": {
+    "title": "Vakansiya joylash",
+    "subtitle": "Minglab ish izlovchilarga murojaat qiling",
+    "form": {
+      "jobTitle": "Lavozim nomi",
+      "company": "Kompaniya nomi",
+      "category": "Kategoriya",
+      "type": "Ish turi",
+      "location": "Manzil",
+      "salaryFrom": "Maoshdan",
+      "salaryTo": "Maoshgacha",
+      "description": "Tavsif",
+      "requirements": "Talablar",
+      "deadline": "Muddat",
+      "submit": "Vakansiyani joylash",
+      "preview": "Ko'rish",
+      "required": "majburiy"
+    }
+  },
+  "pricing": {
+    "title": "Narxlar",
+    "subtitle": "Biznesingiz uchun qulay tarif tanlang",
+    "monthly": "Oylik",
+    "annual": "Yillik",
+    "save": "tejaladi",
+    "mostPopular": "Eng mashhur",
+    "getStarted": "Boshlash",
+    "contactUs": "Bog'lanish",
+    "plans": {
+      "free": {
+        "name": "Bepul",
+        "description": "Kichik kompaniyalar uchun",
+        "features": ["1 ta faol vakansiya", "30 kun ko'rinish", "Asosiy statistika", "Email qo'llab-quvvatlash"]
+      },
+      "pro": {
+        "name": "Pro",
+        "description": "O'sib kelayotgan kompaniyalar uchun",
+        "features": ["10 ta faol vakansiya", "60 kun ko'rinish", "Batafsil statistika", "Logo va brending", "Ustun joylashuv", "24/7 qo'llab-quvvatlash"]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "description": "Yirik korporatsiyalar uchun",
+        "features": ["Cheksiz vakansiyalar", "90 kun ko'rinish", "API integratsiya", "Maxsus menejer", "ATS integratsiya", "Shaxsiy brending sahifasi"]
+      }
+    }
+  },
+  "login": {
+    "title": "Kirish",
+    "subtitle": "Vakansiya joylash uchun tizimga kiring",
+    "email": "Elektron pochta",
+    "password": "Parol",
+    "rememberMe": "Eslab qolish",
+    "forgotPassword": "Parolni unutdingizmi?",
+    "loginBtn": "Kirish",
+    "noAccount": "Akkauntingiz yo'qmi?",
+    "register": "Ro'yxatdan o'ting",
+    "orContinueWith": "yoki davom eting"
+  },
+  "common": {
+    "loading": "Yuklanmoqda...",
+    "error": "Xato yuz berdi",
+    "noResults": "Natija topilmadi",
+    "seeAll": "Hammasini ko'rish",
+    "backToList": "Ro'yxatga qaytish",
+    "currency": "so'm",
+    "perMonth": "/ oy"
+  },
+  "footer": {
+    "tagline": "O'zbekistondagi eng ishonchli ish portali",
+    "forCandidates": "Nomzodlar uchun",
+    "forEmployers": "Ish beruvchilar uchun",
+    "company": "Kompaniya",
+    "links": {
+      "browseJobs": "Vakansiyalar",
+      "savedJobs": "Saqlangan ishlar",
+      "careerAdvice": "Karyera maslahati",
+      "resume": "Rezyume yaratish",
+      "postJob": "Vakansiya joylash",
+      "pricingPlans": "Narxlar",
+      "talentSearch": "Nomzodlar bazasi",
+      "about": "Biz haqimizda",
+      "contact": "Bog'lanish",
+      "blog": "Blog",
+      "privacy": "Maxfiylik siyosati",
+      "terms": "Foydalanish shartlari"
+    },
+    "rights": "Barcha huquqlar himoyalangan"
+  }
+}
