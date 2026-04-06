@@ -44,8 +44,8 @@ export async function GET(req: NextRequest) {
     if (ageMax > 0) query.ageMin = { $lte: ageMax };
 
     const sortObj =
-      sort === "trending" ? { views: "asc", createdAt: "desc" }
-      : /* newest & featured */ { featured: "desc", createdAt: "desc" };
+      sort === "trending" ? { views: -1, createdAt: -1 }
+      : /* newest & featured */ { featured: -1, createdAt: -1 };
 
     const [jobs, total] = await Promise.all([
       Job.find(query)
